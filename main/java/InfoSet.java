@@ -14,9 +14,5 @@ public class InfoSet {
         newMap.next();
     }
 
-    public static void main(String[] args){
 
-        test.Frame demo1 = new test.Frame();
-
-    }
 }
