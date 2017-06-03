@@ -1,19 +1,22 @@
 /**
  * Created by think on 2017/6/3.
  */
+
 public class InfoSet {
 
     public static void SetMapInfo()
     {
-        int width = 10;
-        int height = 10;
+        int width = 20;
+        int height = 20;
+
         char[] mapdata = new char[width*height];
         Map newMap = new Map(mapdata,width,height);
-        newMap.initDisplay();
+        newMap.next();
     }
 
-    public static void main(String args[])
-    {
-    SetMapInfo();
+    public static void main(String[] args){
+
+        test.Frame demo1 = new test.Frame();
+
     }
 }
