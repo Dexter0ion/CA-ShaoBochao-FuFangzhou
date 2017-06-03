@@ -19,7 +19,8 @@ public class MapTest {
     public void ifInitMap() throws Exception {
         int twidth=1;
         int theight=2;
-        mapTest = new Map(twidth,theight);
+        char[]tmapdata = new char[twidth*theight];
+        mapTest = new Map(tmapdata,twidth,theight);
         assertThat(mapTest.getHeight(),is(theight));
     }
 }
